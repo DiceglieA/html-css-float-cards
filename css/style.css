@@ -7,10 +7,18 @@
 }
 
 main {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     text-align: center;
     font-family: 'kanit';
+}
+
+.container::after {
+    content: '';
+    clear: both;
+    display: table;
+    
+    
 }
 
 h1 {
@@ -23,17 +31,27 @@ h1 {
 div {
     color: white;
     background-color: black;
-    width: 33%;
+    height: 25%;
+    font-size: small;
+
 }
 
 .riquadro {
     float: left;
+    width: 33%;
 }
+    
+
+
+
 img {
     height: 100px;
+    float: left;
+
 }
 div h4{
     color: #008AE1;
+    font-size: small;
 }
 
 

@@ -23,7 +23,6 @@ main {
 
 h1 {
     color: red;
-    /* font-family: 'kanit'; */
     padding: 20px 0px 20px 0px;
 
 }
@@ -32,26 +31,39 @@ div {
     color: white;
     background-color: black;
     height: 25%;
-    font-size: small;
+ 
+    
 
 }
 
 .riquadro {
     float: left;
-    width: 33%;
+    width: 31.5%;
+    margin-top: 2rem;
+    margin: 0.5rem;
+    text-align: left;
+    box-shadow: 5px 5px 5px grey;
+    font-size: small;
+
 }
     
+.testo {
+    padding: 1px;
+    
+    
 
+}
 
 
 img {
-    height: 100px;
+    width: 25%;
     float: left;
+    
+    
 
 }
 div h4{
     color: #008AE1;
-    font-size: small;
 }
 
 
